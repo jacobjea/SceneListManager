@@ -1,0 +1,12 @@
+{
+  "name": "jsw.scenelistmanager",
+  "displayName": "Unity SceneListManager",
+  "version": "1.0.1",
+  "unity": "2020.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributors": [],
+  "description": ""
+}
