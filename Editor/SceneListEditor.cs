@@ -79,7 +79,10 @@ namespace JSW.SceneListManager.Editor
 
                 if (GUILayout.Button("Open", openButtonStyle))
                 {
-                    EditorSceneManager.OpenScene(scenePath);
+                    if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
+                    {
+                        EditorSceneManager.OpenScene(scenePath);
+                    }
                 }
 
                 GUIStyle additiveButtonStyle = new GUIStyle(GUI.skin.button);
