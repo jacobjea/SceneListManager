@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e81afbc20a4323409e99b1455190853, type: 3}
   m_Name: SceneListSO
   m_EditorClassIdentifier: 
-  sceneList:
-  - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
-  - {fileID: 102900000, guid: cdd8e2ae124309c44bef090ee7e7d890, type: 3}
+  sceneList: []

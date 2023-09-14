@@ -13,8 +13,6 @@ using JSW.SceneListManager;
 
 namespace JSW.SceneListManager.Editor
 {
-
-    [CustomEditor(typeof(MonoBehaviour))]
     public class SceneListEditor : EditorWindow
     {
         private Vector2 scrollPosition;
@@ -135,7 +133,6 @@ namespace JSW.SceneListManager.Editor
             }
 
             EditorGUILayout.EndScrollView();
-
             selectedAsset = EditorGUILayout.ObjectField("Scene:", selectedAsset, typeof(SceneAsset), false);
 
             if (GUILayout.Button("Add Scene"))
