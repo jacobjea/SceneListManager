@@ -18,6 +18,8 @@ https://github.com/jacobjea/SceneListManager.git
 ```
 ## How it works
 
+* This feature is available on the **Windows/Scene list Manager** tab.
+
 * You can register the required scene.
 
 * Allows you to quickly open a registered scene.
